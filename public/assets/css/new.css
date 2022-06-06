@@ -1,0 +1,57 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.flex-container > div {
+    margin: 40px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.flex-container .card {
+    text-align: center;
+}
+
+/* .img {
+    background-image: url(/images/icon/data-before.jpg);
+    width: 240px;
+    height: 240px;
+}
+
+.img:hover {
+    background-image: url(/images/icon/data-after.png);
+} */
+
+/* .card .card-body img:hover {
+    src: url(/images/icon/data-after.png);
+} */
+
+.card {
+    background-color: white;
+    border: 3px solid #EDD2F3;
+}
+
+.card .card-header {
+    height: fit-content;
+    /* background-color: #EDD2F3; */
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    padding-bottom: 0;
+    border-radius: 1.4em;
+}
+
+.title {
+    background-color: #4f4a6d;
+    padding: 0.8em;
+    text-align: center;
+    border-radius: 1.4em;
+    
+}
+
+.title h4 {
+    color: white;
+}
